@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+    margin-top: 70px;
+    font-family:Stencil Std, fantasy ;
+    color:black;
+}
+/* .cell {
+    width:40px;
+     height:40px;
+     text-align: center
+} */
+.table{
+border: 1px solid black;
+border-collapse: collapse;
+margin: auto;
+margin-top: 200px;
+width: 250px;
+height: 250px;
+text-align: center;
+}
+/* .body{
+    background-color: hotpink;
+} */
