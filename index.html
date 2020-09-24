@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MineSweeper</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body onload="init()">
     <h1 class="title">Welcome to MineSweeper!</h1>
-    <div class="board-container">
+    <div class="timer">0</div>
+    <div id="myDIV" oncontextmenu="return false;">
+        <div class="board-container">
 
+        </div>
     </div>
-    
+
     <script src="js/game.js"></script>
+    <script>
+        // document.getElementById('myDIV').addEventListener("oncontextmenu", myFunction);
+        var el = document.querySelector('.table');
+        console.log(el)
+        function myFunction() {
+            x.innerHTML = '🗽';
+            // x.style.fontSize = "30px";
+        }
+    </script>
 </body>
+
 </html>
