@@ -1,37 +1,62 @@
 body{
     background-color: rgb(182, 30, 30);
+    margin: 0;
+    padding: 0;
+
 }
 .title{
     text-align: center;
     margin-top: 100px;
     font-family:Stencil Std, fantasy ;
     color:black;
-    font-size: 70px;
+    font-size: 50px;
 }
 .board-container{
-border-collapse: collapse;
 margin: auto;
-margin-top: 200px;
-width: 250px;
+margin-top: 50px;
+width: 50%;
 height: 250px;
 text-align: center;
 }
 
 td{
     border: 2px solid black;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     font-size: medium;
     background-color: white;
 }
-/* td:hover{
+td:hover{
     background-color:gray;
-} */
+}
 .show{
     background-color: gray;
 }
 .timer{
-    text-align: center;
-    font-size: 50px;
+    margin-top: 25px;
+    position: absolute;
+    margin-left: 230px;
+    font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.count-mark{
+    margin-top: 25px;
+    margin-left: -140px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.buttons .btn{
+    font-family: Trattatello, fantasy;
+    /* margin-right: -100px ; */
+    /* margin-left: 350px; */
+    font-size: large;
+    border-radius: 12px;
+    
+}
+.buttons{
+    margin-left: 710px;
+    margin-top: 40px;
+}
+.btn:hover{
+    cursor: pointer;
 }

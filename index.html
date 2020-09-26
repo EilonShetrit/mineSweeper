@@ -10,7 +10,13 @@
 
 <body onload="init()">
     <h1 class="title">Welcome to MineSweeper!</h1>
-    <div class="timer">0</div>
+    <div class="buttons">
+        <button class="btn" onclick="chooseLevel(this)">Easy</button>
+        <button class="btn" onclick="chooseLevel(this)">Medium</button>
+        <button class="btn" onclick="chooseLevel(this)">Hard</button>
+        <div class="timer">Time : 0</div>
+        <div class="count-mark">Mark : 0</div>
+    </div>
     <div id="myDIV" oncontextmenu="return false;">
         <div class="board-container">
 
@@ -18,15 +24,6 @@
     </div>
 
     <script src="js/game.js"></script>
-    <script>
-        // document.getElementById('myDIV').addEventListener("oncontextmenu", myFunction);
-        var el = document.querySelector('.table');
-        console.log(el)
-        function myFunction() {
-            x.innerHTML = '🗽';
-            // x.style.fontSize = "30px";
-        }
-    </script>
 </body>
 
 </html>
