@@ -14,15 +14,18 @@
         <button class="btn" onclick="chooseLevel(this)">Easy</button>
         <button class="btn" onclick="chooseLevel(this)">Medium</button>
         <button class="btn" onclick="chooseLevel(this)">Hard</button>
-        <div class="timer">Time : 0</div>
-        <div class="count-mark">Mark : 0</div>
     </div>
+    <div class="lives"></div>
+    <button class="icon" onclick="init()"></button>
+    <div class="timer">Time : 0</div>
+    <div class="count-mark">Mark : 0</div>
+
     <div id="myDIV" oncontextmenu="return false;">
         <div class="board-container">
 
         </div>
     </div>
-
+<div class="victory" style="display: none;">Victory!</div>
     <script src="js/game.js"></script>
 </body>
 

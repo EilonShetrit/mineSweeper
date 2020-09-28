@@ -1,62 +1,93 @@
-body{
-    background-color: rgb(182, 30, 30);
-    margin: 0;
+body {
+    background-color: rgb(235, 235, 203);
+    margin: 0 auto;
     padding: 0;
-
 }
-.title{
+
+.title {
     text-align: center;
-    margin-top: 100px;
-    font-family:Stencil Std, fantasy ;
-    color:black;
+    /* position: fixed; */
+    margin-top: 50px;
+    font-family: monaco, Consolas, Lucida Console, monospace;
+    color: black;
     font-size: 50px;
 }
-.board-container{
-margin: auto;
-margin-top: 50px;
-width: 50%;
-height: 250px;
-text-align: center;
+
+.board-container {
+    margin: auto;
+    margin-top: 25px;
+    width: 50%;
+    height: 250px;
+    text-align: center;
 }
 
-td{
+table{
+    margin: 0 auto;
+    table-layout: auto;
+}
+
+td {
     border: 2px solid black;
     width: 40px;
     height: 40px;
     font-size: medium;
     background-color: white;
 }
-td:hover{
-    background-color:gray;
-}
-.show{
+
+td:hover {
     background-color: gray;
 }
-.timer{
-    margin-top: 25px;
+
+/* .show {
+    background-color: gray;
+} */
+
+.timer {
+    /* margin: auto; */
+    margin-top: 5px;
     position: absolute;
-    margin-left: 230px;
+    margin-left:950px;
     font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: monaco, Consolas, Lucida Console, monospace;
 }
-.count-mark{
-    margin-top: 25px;
-    margin-left: -140px;
+
+.count-mark {
+    margin-top: 5px;
+    margin-left: 600px;
     font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-family: monaco, Consolas, Lucida Console, monospace;
 }
-.buttons .btn{
+
+.buttons .btn {
     font-family: Trattatello, fantasy;
     /* margin-right: -100px ; */
-    /* margin-left: 350px; */
     font-size: large;
     border-radius: 12px;
-    
 }
-.buttons{
-    margin-left: 710px;
+
+.buttons {
+    margin-left: 750px;
     margin-top: 40px;
 }
-.btn:hover{
+
+.btn:hover {
     cursor: pointer;
+}
+.lives{
+    margin-top: 20px;
+    margin-left: 810px;
+}
+.icon{
+    margin-top: 30px;
+    margin-left: 830px;
+    font-size: medium;
+}
+.icon:hover{
+cursor: pointer;
+}
+.victory{
+    margin: 0 auto;
+    text-align: center;
+    font-size: x-large;
+    color: green;
 }
